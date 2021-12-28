@@ -1,0 +1,56 @@
+html, body{
+    font-family:Outfit;
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(215, 51%, 70%);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+}
+img{
+    margin-right: 5%;
+}
+#name{
+    margin-top: 1em;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+#money{
+    font-weight: bold;
+    color: hsl(178, 100%, 50%);
+    text-align: left;
+    width: 50%;
+}
+#date{
+    justify-content: center;
+    position: relative;
+    text-align: right;
+    width: 50%;
+}
+#info{
+    display:flex;
+}
+#author{
+    color: white;
+}
+#author_info, #author{
+    display:inline;
+}
+#avatar{
+    border: solid white;
+    border-radius: 100%;
+}
+#box{
+    width: 18em;
+    padding: 1.5em;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+}
+#name:hover, #author:hover{
+    color: hsl(178, 100%, 50%);
+}
