@@ -60,6 +60,7 @@ img{
 #pic2{
     left: 50%;
     transform: translate(-50%, 0);
+    width: 2.7%;
     padding: 6.5%;
     background-color: hsl(178, 100%, 50%);
     position: absolute;
