@@ -54,3 +54,17 @@ img{
 #name:hover, #author:hover{
     color: hsl(178, 100%, 50%);
 }
+#pic{
+    width: 100%;
+}
+#pic2{
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding: 6.5%;
+    background-color: hsl(178, 100%, 50%);
+    position: absolute;
+    opacity: 0;
+}
+#pic2:hover{
+    opacity: 0.5;
+}
